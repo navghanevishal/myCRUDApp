@@ -3,7 +3,6 @@ import { FormGroup, FormControl, FormBuilder, Validators } from '@angular/forms'
 
 import { HttpService } from '../shared/http.service';
 import { Task } from '../models/task.model';
-import { type } from 'os';
 
 @Component({
   selector: 'app-task',
